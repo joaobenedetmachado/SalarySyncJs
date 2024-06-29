@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SalarySync</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="salary-left">
+        <div id="salary-left-top">
+            <input type="number" name="" id="input-salary" >
+        </div>
+        <div id="salary-left-bottom">
+            <div id="add-button-area">
+                <button id="add-button" onclick="addLabel()">
+                    <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-7 7V5"/>
+                    </svg>
+                  </button>
+            </div>
+            <div id="area-labels">
+            </div>
+        </div>
+    </div>    
+    <div id="salary-right">
+        <div id="painel-main">
+            <div id="cards-main">   
+            </div>
+            <div id="graficos">
+                <canvas id="meuGraficoPizza" style="aspect-ratio: 16/9; width: 50%; height: 50%; padding: 20px; border-radius: 10px"></canvas>
+                <canvas id="meuGraficoBarra" style="aspect-ratio: 16/9; width: 50%; height: 50%; padding: 20px; border-radius: 10px"></canvas>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
