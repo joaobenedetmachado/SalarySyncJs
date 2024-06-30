@@ -1,6 +1,6 @@
 # SalarySync
 
-<img src="https://i.imgur.com/b29lpVK.png">
+<img src="https://i.imgur.com/qrApKKB.png">
 
 SalarySync é uma aplicação web que permite gerenciar e visualizar a distribuição do seu salário entre diferentes categorias ou rótulos (labels). Com esta ferramenta, você pode adicionar rótulos personalizados com nome, cor e porcentagem do salário destinada a cada um, e visualizar esses dados em gráficos de pizza e barra.
 
