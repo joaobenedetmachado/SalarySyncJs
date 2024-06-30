@@ -22,10 +22,9 @@ function checkPercentages(inputElement, id) {
     console.log("Total Sum: " + totalSum); 
 
     if (totalSum > 100) {
-        alert("o total da soma de todas as porcentagens é maior que 100%");
         var currentValue = parseInt(inputElement.value) || 0;
         var excess = totalSum - 100;
-
+        PopUpShowOn()
         if (currentValue > excess) {
             inputElement.value = 0;
             labelsData[id].percentage = 0;
@@ -231,3 +230,13 @@ function createCardsFromLabelsData() {
       maintainAspectRatio: true
     }
   });
+
+function PopUpShowOff() {
+  var popupmain = document.getElementById("pop-up-main");
+  popupmain.style.display = "none"
+}
+
+function PopUpShowOn() {
+  var popupmain = document.getElementById("pop-up-main");
+  popupmain.style.display = "flex"
+}
